@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+
+		<img id="main-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpH5vzjlq06ib-R2VC0gDQMuRvCF5rJ6Qqg&usqp=CAU">
+
+		<p> We're honored that you chose to visit our website</p>
+
+		<ul>
+			<li>You are worthy!</li>
+			<li>You are brilliant!</li>
+			<li>You are capable!</li>
+			<li>You are loved and supported!</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<p>How did you hear about us?</p>
+		<form> 
+			<div style = "display:flex; flex-direction: row-reverse">
+				<label>Facebook</label>
+				<input type="checkbox" name ="reach" value="Facebook">
+			</div>		
+		
+			<div style = "display:flex; flex-direction: row-reverse">
+				<label>Google</label>
+				<input type="checkbox" name ="reach" value="Google">
+			</div>
+				
+			<div style = "display:flex; flex-direction: row-reverse">
+				<label>Other</label>
+				<input type="checkbox" name ="reach" value="Other">
+			</div>
+		</form>	
+
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
